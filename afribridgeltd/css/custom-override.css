@@ -58,6 +58,14 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Nunito', sans-serif; color: var(--ve-dark); }
   display:flex; align-items:center; justify-content:center;
   font-family:'Nunito',sans-serif; font-weight:900; font-size:20px;
 }
+.ve-logo-img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  border-radius: 8px;
+  flex-shrink: 0;
+  display: block;
+}
 .ve-logo-text { font-family:'Nunito',sans-serif; font-size:20px; color:#fff; font-weight:600; }
 .ve-logo-text strong { color: var(--ve-gold); font-weight:900; }
 
